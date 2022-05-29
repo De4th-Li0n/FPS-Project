@@ -438,6 +438,8 @@
 "Assets/Asset/Import/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs"
 "Assets/Asset/Import/Standard Assets/Vehicles/Car/Scripts/Suspension.cs"
 "Assets/Asset/Import/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs"
+"Assets/Script/Level/DoorOpenFirst.cs"
+"Assets/Script/Weapons/HandGunPickUp.cs"
 -langversion:9.0
 
 /deterministic

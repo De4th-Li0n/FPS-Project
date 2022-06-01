@@ -438,7 +438,12 @@
 "Assets/Asset/Import/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs"
 "Assets/Asset/Import/Standard Assets/Vehicles/Car/Scripts/Suspension.cs"
 "Assets/Asset/Import/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs"
+"Assets/Script/Core/MainMenu.cs"
 "Assets/Script/Level/DoorOpenFirst.cs"
+"Assets/Script/Level/PlayerCasting.cs"
+"Assets/Script/Weapons/GlobalAmmo.cs"
+"Assets/Script/Weapons/HandGunAmmoPick.cs"
+"Assets/Script/Weapons/HandGunFire.cs"
 "Assets/Script/Weapons/HandGunPickUp.cs"
 -langversion:9.0
 

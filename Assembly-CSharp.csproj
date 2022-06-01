@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Asset\Import\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\Script\Weapons\HandGunPickUp.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
@@ -114,6 +115,7 @@
      <Compile Include="Assets\Asset\Import\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\Script\Level\DoorOpenFirst.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Utility\AutoMoveAndRotate.cs" />
@@ -139,8 +141,11 @@
      <Compile Include="Assets\Asset\Import\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Utility\FPSCounter.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-     <Compile Include="Assets\Script\Level\DoorOpenFirst.cs" />
-     <Compile Include="Assets\Script\Weapons\HandGunPickUp.cs" />
+     <Compile Include="Assets\Script\Weapons\HandGunFire.cs" />
+     <Compile Include="Assets\Script\Weapons\HandGunAmmoPick.cs" />
+     <Compile Include="Assets\Script\Weapons\GlobalAmmo.cs" />
+     <Compile Include="Assets\Script\Core\MainMenu.cs" />
+     <Compile Include="Assets\Script\Level\PlayerCasting.cs" />
      <None Include="Assets\Asset\Import\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Asset\Import\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Asset\Import\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
@@ -163,6 +168,7 @@
      <None Include="Assets\Asset\Import\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\Asset\Import\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Asset\Import\Standard Assets\Effects\ImageEffects\Readme.txt" />
+     <None Include="Assets\Asset\Import\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
      <None Include="Assets\Asset\Import\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Asset\Import\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Asset\Import\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
@@ -170,6 +176,7 @@
      <None Include="Assets\Asset\Import\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Asset\Import\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Asset\Import\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Asset\Import\Mega Fantasy Props Pack\README.txt" />
      <None Include="Assets\Asset\Import\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Asset\Import\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Asset\Import\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />

@@ -9,8 +9,10 @@ public class HandGunFire : MonoBehaviour
     public AudioSource gunFire;
     public bool isFiring = false;
     public AudioSource emptySound;
+    public float targetDistance;
+    public int damageAmount = 5;
 
-	void Update () {
+	void Update () {        
 		if (Input.GetButtonDown("Fire1"))
         {
             if(GlobalAmmo.handgunAmmo < 1)
@@ -29,11 +31,19 @@ public class HandGunFire : MonoBehaviour
 
     IEnumerator FiringHandgun()
     {
+        RaycastHit theShot;
+
         isFiring = true;
-        GlobalAmmo.handgunAmmo -= 1;
+        GlobalAmmo.handgunAmmo -= 1;        
+        if(Physics.Raycast(transform.position,transform.TransformDirection(Vector3.forward),out theShot))
+        {
+            targetDistance = theShot.distance;
+            theShot.transform.SendMessage("DamageEnemy", damageAmount, SendMessageOptions.DontRequireReceiver);
+        }
         theGun.GetComponent<Animator>().Play("HandGunFire");
         muzzleFlash.SetActive(true);
         gunFire.Play();
+
         yield return new WaitForSeconds(0.05f);
         muzzleFlash.SetActive(false);
         yield return new WaitForSeconds(0.25f);

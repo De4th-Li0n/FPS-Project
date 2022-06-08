@@ -152,6 +152,10 @@
      <Compile Include="Assets\Asset\Import\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Utility\FPSCounter.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Script\Level\GlobalScore.cs" />
+     <Compile Include="Assets\Script\Level\GoldCollect.cs" />
+     <Compile Include="Assets\Script\Level\FullHealthCollect.cs" />
+     <Compile Include="Assets\Script\Level\Per10HealthCollect.cs" />
      <None Include="Assets\Asset\Import\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Asset\Import\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Asset\Import\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

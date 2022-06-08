@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 725
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -225,7 +225,7 @@ MonoBehaviour:
   - {fileID: 18}
   - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 79
+  controlID: 75
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -622,9 +622,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -18.272509, y: 1.6133273, z: 27.182373}
+    m_Target: {x: -3.6538875, y: -0.13218915, z: 6.1768446}
     speed: 2
-    m_Value: {x: -18.272509, y: 1.6133273, z: 27.182373}
+    m_Value: {x: -3.6538875, y: -0.13218915, z: 6.1768446}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -671,13 +671,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0030706571, y: 0.963829, z: 0.011280677, w: -0.26649922}
+    m_Target: {x: -0.18973407, y: 0.47773895, z: -0.10647844, w: -0.8512223}
     speed: 2
-    m_Value: {x: 0.0030704658, y: 0.9637689, z: 0.011279974, w: -0.26648262}
+    m_Value: {x: -0.1897198, y: 0.477703, z: -0.10647043, w: -0.85115826}
   m_Size:
-    m_Target: 4.307629
+    m_Target: 3.1270547
     speed: 2
-    m_Value: 4.307629
+    m_Value: 3.1270547
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -726,7 +726,7 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 1089
-    height: 416
+    height: 454
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -773,22 +773,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Script/Enemy
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Script/Enemy
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\PC\source\Unity Github\FPS Project\FPS-Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8e560000
-    m_LastClickedID: 22158
-    m_ExpandedIDs: 000000008c560000905600009256000096560000985600009a5600009c5600009e560000a0560000a2560000a4560000
+    m_SelectedIDs: 44570000
+    m_LastClickedID: 22340
+    m_ExpandedIDs: 000000008c5600008e56000090560000925600009456000096560000985600009a5600009c5600009e5600003c570000404f0200464f0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -816,7 +816,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008c5600008e56000090560000925600009456000096560000985600009a5600009c5600009e560000a0560000a2560000a4560000a6560000
+    m_ExpandedIDs: 000000008c5600008e56000090560000925600009456000096560000985600009a5600009c5600009e560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -860,7 +860,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -932,7 +932,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 164554
+  m_LastSelectedObjectID: -59814
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1100,23 +1100,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1e560000
+      m_SelectedIDs: 500c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 0424ffffb62effff2636ffff8844ffffda49fffffc5affff4e61ffff8662fffffc70ffff6675ffff9ec9ffff54cbffff68cbffff6ccbffff6accffff26dcffff60eaffff2cedffff48f5ffff3afbffff6e4e0000c24e0000886900007a6a0000226c00006ac30000e8570200
+      m_ExpandedIDs: 4ebefeff1adafeffbce4feff8ee8feffaeebfeff5a16ffff3219ffffa22fffff0856ffff9687ffff928cffffc299ffff469effffc6a0fffff6a3ffff3afbffff264e0000504e00006e4e0000c24e0000105000007451000076dd000012de000006df00000edf000084df000042e000008ee10000f6e10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Enemy
-        m_OriginalName: Enemy
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 50268
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 11}
       m_SearchString: 

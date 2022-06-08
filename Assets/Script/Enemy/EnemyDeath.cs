@@ -7,7 +7,7 @@ public class EnemyDeath : MonoBehaviour
     public int enemyHealth = 15;
     public bool enemyDead = false;
     public GameObject enemyAI;
-    public GameObject theEnemy;   
+    public GameObject theEnemy;      
 
     void DamageEnemy (int damageAmount)
     {
@@ -20,7 +20,9 @@ public class EnemyDeath : MonoBehaviour
         {
             enemyDead = true;
             theEnemy.GetComponent<Animator>().Play("Death");
-            enemyAI.SetActive(false);            
+            enemyAI.SetActive(false);
+            GlobalScore.scoreValue += 200;
+            this.GetComponent<BoxCollider>().enabled =false;                 
         }
     }
 }

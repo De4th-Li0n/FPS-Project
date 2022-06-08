@@ -27,7 +27,7 @@ public class EnemyAI : MonoBehaviour
         if(hitTag != "Player")
         {
             theSoldier.GetComponent<Animator>().Play("Idle");
-            lookingAtPlayer = false;
+            lookingAtPlayer = false;            
         }
     }
 
@@ -38,7 +38,7 @@ public class EnemyAI : MonoBehaviour
         theSoldier.GetComponent<Animator>().Play("Shooting");
         fireSound.Play();        
         lookingAtPlayer = true;
-        GlobalHealth.healthValue -= 20;
+        GlobalHealth.healthValue -= 5;
         hurtFlash.SetActive(true);
         yield return new WaitForSeconds(0.2f);
         hurtFlash.SetActive(false);

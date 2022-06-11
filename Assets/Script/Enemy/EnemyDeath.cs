@@ -22,7 +22,7 @@ public class EnemyDeath : MonoBehaviour
             theEnemy.GetComponent<Animator>().Play("Death");
             enemyAI.SetActive(false);
             GlobalScore.scoreValue += 200;
-            this.GetComponent<BoxCollider>().enabled =false;                 
+            this.GetComponent<BoxCollider>().enabled =false;
         }
     }
 }

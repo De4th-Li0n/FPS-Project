@@ -23,6 +23,7 @@ public class EnemyDeath : MonoBehaviour
             enemyAI.SetActive(false);
             GlobalScore.scoreValue += 200;
             this.GetComponent<BoxCollider>().enabled =false;
+            GlobalComplete.EnemyCount +=1;
         }
     }
 }

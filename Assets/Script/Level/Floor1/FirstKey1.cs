@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class FirstKey1 : MonoBehaviour
+{
+    public GameObject keyUI;
+    public GameObject lockedTrigger;
+    public GameObject theKey;
+
+    void OnTriggerEnter(Collider other)
+    {
+        keyUI.SetActive(true);
+        lockedTrigger.SetActive(true);
+        this.gameObject.GetComponent<BoxCollider>().enabled = false;
+        theKey.SetActive(false);
+    }
+}

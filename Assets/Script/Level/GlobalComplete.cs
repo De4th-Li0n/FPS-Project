@@ -11,6 +11,9 @@ public class GlobalComplete : MonoBehaviour
     public GameObject EnemyDisplay;
     public GameObject LootDisplay;
 
+    public static int nextFloor = 4;
+
+
     void Update() 
     {
         EnemyDisplay.GetComponent<Text>().text = "" + EnemyCount;

@@ -48,13 +48,21 @@ public class PauseMenuScript : MonoBehaviour
     public void Home(int sceneID)
     {        
         Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneID);
+        PlayerPrefs.SetInt("SceneToLoad", GlobalComplete.nextFloor);
+        PlayerPrefs.SetInt("LivesSaved", GlobalLife.lifeValue);
+        PlayerPrefs.SetInt("ScoreSaved", GlobalScore.scoreValue);
+        PlayerPrefs.SetInt("AmmoSaved", GlobalAmmo.handgunAmmo);
+        SceneManager.LoadScene(3);
         AudioListener.volume = 1f;
         ThePlayer.GetComponent<FirstPersonController>().enabled = true;       
         Cursor.visible = true;
     }
     public void QuitGame()
     {        
+        PlayerPrefs.SetInt("SceneToLoad", GlobalComplete.nextFloor);
+        PlayerPrefs.SetInt("LivesSaved", GlobalLife.lifeValue);
+        PlayerPrefs.SetInt("ScoreSaved", GlobalScore.scoreValue);
+        PlayerPrefs.SetInt("AmmoSaved", GlobalAmmo.handgunAmmo);
         Time.timeScale = 1f;
         Application.Quit();
         AudioListener.volume = 1f;

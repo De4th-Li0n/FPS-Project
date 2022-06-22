@@ -23,13 +23,26 @@ public class FloorComplete : MonoBehaviour
     IEnumerator CompletedFloor()
     {
         fadeOut.SetActive(true);
+        GlobalComplete.nextFloor += 1;
+        PlayerPrefs.SetInt("SceneToLoad", GlobalComplete.nextFloor);
+        PlayerPrefs.SetInt("LivesSaved", GlobalLife.lifeValue);
+        PlayerPrefs.SetInt("ScoreSaved", GlobalScore.scoreValue);
+        PlayerPrefs.SetInt("AmmoSaved", GlobalAmmo.handgunAmmo);
         yield return new WaitForSeconds(2);
         completePanel.SetActive(true);
         yield return new WaitForSeconds(15);
         GlobalScore.scoreValue = 0;
         GlobalComplete.EnemyCount = 0;
         GlobalComplete.LootCount = 0;
-        GlobalComplete.nextFloor += 1;
-        SceneManager.LoadScene(GlobalComplete.nextFloor);
+        if(GlobalComplete.nextFloor <= 5)     
+        {
+            SceneManager.LoadScene(GlobalComplete.nextFloor);
+            Cursor.visible = true;
+        }   
+        else
+        {
+            SceneManager.LoadScene(0);
+            Cursor.visible = true;            
+        }        
     }
 }

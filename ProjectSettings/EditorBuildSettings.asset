@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/SpashScreen.unity
     guid: cd43d6ce0cb62454d8ec7c600d95585e
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: cb688e233074ead4b94bed27c6eee4c3
-  - enabled: 1
     path: Assets/Scenes/LevelRecycle.unity
     guid: e75f789344295b6418b5ba5e001a0fc6
   - enabled: 1
     path: Assets/Scenes/Floor1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: cb688e233074ead4b94bed27c6eee4c3
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: f3122cf73b248f447969637499e9b771

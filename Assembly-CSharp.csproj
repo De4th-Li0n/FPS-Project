@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Asset\Import\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\Script\Level\ExtraLives.cs" />
      <Compile Include="Assets\Script\Weapons\HandGunPickUp.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
@@ -45,6 +46,7 @@
      <Compile Include="Assets\Script\Level\FullHealthCollect.cs" />
      <Compile Include="Assets\Script\Level\GlobalLife.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\ParticleSystems\Scripts\Explosive.cs" />
+     <Compile Include="Assets\Script\Level\FloorTimer.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Utility\DynamicShadowSettings.cs" />
      <Compile Include="Assets\Script\Weapons\HandGunAmmoPick.cs" />
@@ -62,6 +64,7 @@
      <Compile Include="Assets\Asset\Import\SampleScenes\Scripts\LevelReset.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+     <Compile Include="Assets\Script\Core\SettingMenu.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
@@ -157,6 +160,7 @@
      <Compile Include="Assets\Asset\Import\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
+     <Compile Include="Assets\Script\Level\RemoveFlash.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
@@ -164,11 +168,8 @@
      <Compile Include="Assets\Asset\Import\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Utility\FPSCounter.cs" />
      <Compile Include="Assets\Asset\Import\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-     <Compile Include="Assets\Script\Core\SettingMenu.cs" />
-     <Compile Include="Assets\Script\Level\RemoveFlash.cs" />
-     <Compile Include="Assets\Script\Level\FloorTimer.cs" />
-     <Compile Include="Assets\Script\Level\ExtraLives.cs" />
-     <Compile Include="Assets\Script\Level\SplashToMenu.cs" />
+     <Compile Include="Assets\Script\Core\CredToMenu.cs" />
+     <Compile Include="Assets\Script\Core\SplashToMenu.cs" />
      <None Include="Assets\Asset\Import\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Asset\Import\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Asset\Import\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

@@ -1,0 +1,535 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1655871457195963, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871457204193, "dur": 75238, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871457281349, "dur": 208570, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871457490150, "dur": 604526, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871458094677, "dur": 26891573, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871484986462, "dur": 10654, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871556513761, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871556515047, "dur": 6356, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871556521405, "dur": 513296, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871557034706, "dur": 1647802, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871558682510, "dur": 22103587, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871580786099, "dur": 7271, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871580831097, "dur": 176, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1655871558203425, "dur": 461350, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655871558205166, "dur": 84114, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655871558628951, "dur": 8605, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655871558637561, "dur": 27185, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655871558639445, "dur": 23946, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655871558690156, "dur": 2922, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655871558687580, "dur": 5563, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871580831577, "dur": 464, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1655871558798624, "dur":3343, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871558801981, "dur":225, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1655871558802291, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1655871558802321, "dur":350, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1655871558802715, "dur":910, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871558803625, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580693627, "dur":290, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580693918, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580693949, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580693955, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580693975, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580693980, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580694001, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580694005, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580694024, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580694049, "dur":41, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580694138, "dur":78768, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1655871558803250, "dur":418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871558803672, "dur":13240, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871558816929, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655871558816936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871558819941, "dur":1263, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655871558821209, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655871558821305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871558821936, "dur":8647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655871558830587, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1655871558830793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871558831067, "dur":14568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1655871558845715, "dur":378174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655871559223896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871559223906, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655871559226384, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1655871559226607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871559226620, "dur":91639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1655871559318331, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1655871559318477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871559319957, "dur":55410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1655871559375447, "dur":8052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1655871559383505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871559383600, "dur":73307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1655871559457031, "dur":27447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1655871559484484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871559484495, "dur":507227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1655871559991849, "dur":18026604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655871578018460, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655871578018470, "dur":2674944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655871580693543, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1655871580693547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871558803306, "dur":383, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871558803689, "dur":13266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871558816955, "dur":26493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1655871558843455, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871558843466, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1655871558845731, "dur":1076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1655871558846814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871558846824, "dur":1144981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1655871559991905, "dur":760647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1655871560752556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871560752562, "dur":4451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1655871560757097, "dur":23333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871560780436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871560780445, "dur":12146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871560793128, "dur":33413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871560826547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871560826556, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871560828387, "dur":151273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871560979666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871560979675, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871560983023, "dur":90717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561073744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561073752, "dur":39400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561113238, "dur":29838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561143097, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561143110, "dur":30646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561173852, "dur":53382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561227239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561227247, "dur":15747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561243086, "dur":23401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561266491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561266498, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561268301, "dur":23171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561291479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561291492, "dur":41164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561332802, "dur":28912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561361720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561361729, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561363554, "dur":51800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561415359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561415366, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561417771, "dur":45433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561463210, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561463220, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561465858, "dur":25433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561491326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561491336, "dur":2116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561493540, "dur":28634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561522180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561522189, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561524088, "dur":71038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561595134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561595144, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561597237, "dur":25051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561622295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561622304, "dur":3279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561625659, "dur":32821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561658486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561658495, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561661751, "dur":90941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561752698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561752706, "dur":10385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561763164, "dur":40456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561803626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561803635, "dur":6223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561809940, "dur":104517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561914461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871561914468, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871561916211, "dur":329384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871562245600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871562245607, "dur":317683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871562563386, "dur":37411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871562600804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871562600814, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871562603026, "dur":93211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871562696242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871562696248, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871562698031, "dur":231408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871562929444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871562929451, "dur":102418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563031978, "dur":155032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563187015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871563187023, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563189353, "dur":80833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563270192, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871563270203, "dur":2578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563272921, "dur":28648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563301574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871563301580, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563303397, "dur":94998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563398402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871563398413, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563400138, "dur":36124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563436267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871563436274, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563439566, "dur":145037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563584607, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871563584614, "dur":266217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871563850927, "dur":1613399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871565464332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871565464341, "dur":183950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871565648360, "dur":141557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871565789954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871565789962, "dur":23634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871565814037, "dur":8560148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871574374190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655871574374196, "dur":3825339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655871578199616, "dur":2494015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871558803291, "dur":387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871558803679, "dur":13243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871558816929, "dur":485833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1655871559302768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871559303144, "dur":15229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1655871559318458, "dur":127754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1655871559446219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871559446258, "dur":7681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1655871559454033, "dur":26933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1655871559480972, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871559480983, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1655871559482939, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1655871559483522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871559483532, "dur":47980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1655871559531600, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1655871559532042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871559532052, "dur":51953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1655871559584086, "dur":161697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871559745790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871559746740, "dur":6775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871559753616, "dur":1080896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871560834516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871560834650, "dur":30657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871560865401, "dur":161788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561027195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561027203, "dur":89713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561117020, "dur":90039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561207065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561207074, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561208661, "dur":24178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561232845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561232860, "dur":10974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561243909, "dur":22562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561266476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561266483, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561268301, "dur":21542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561289849, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561289859, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561292221, "dur":16424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561308650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561308657, "dur":12558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561321332, "dur":44712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561366050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561366059, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561367627, "dur":40035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561407668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561407677, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561410160, "dur":23869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561434035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561434045, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561436604, "dur":129576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561566187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561566196, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561568786, "dur":47954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561616746, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561616756, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561619279, "dur":26819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561646104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561646114, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561647897, "dur":45475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561693379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561693387, "dur":17354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561710979, "dur":66127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561777115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561777127, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561779887, "dur":64869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561844763, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561844772, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561847231, "dur":30913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561878151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871561878161, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871561881199, "dur":146799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562028004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871562028014, "dur":8475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562036563, "dur":54914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562091484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871562091528, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562093451, "dur":29600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562123067, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871562123082, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562125729, "dur":38487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562164223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871562164233, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562166105, "dur":26730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562192841, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871562192851, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562194731, "dur":31715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562226452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871562226462, "dur":335606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562562172, "dur":1359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562563536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871562563546, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562565679, "dur":1216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562566904, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871562566918, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562569025, "dur":39659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562608691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871562608700, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871562611138, "dur":2712784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565323926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871565323932, "dur":3497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565327512, "dur":33867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565361384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871565361390, "dur":55922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565417410, "dur":113147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565530564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871565530571, "dur":110461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565641189, "dur":144410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565785606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871565785615, "dur":28067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565813772, "dur":42686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565856462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871565856468, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565857904, "dur":101172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871565959080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871565959087, "dur":875691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655871566834849, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1655871566834934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871566840589, "dur":44904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1655871566885578, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655871566885662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871566885669, "dur":18580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655871566904414, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655871566904536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871566904546, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655871566908938, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655871566909010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871566909016, "dur":18127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655871566927220, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1655871566927434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871566927444, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1655871566929706, "dur":1537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1655871566931249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871566931258, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1655871566933563, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655871566933644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871566933650, "dur":92226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655871567025950, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655871567026030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871567026037, "dur":127877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655871567154031, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1655871567154135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871567154144, "dur":5448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1655871567159687, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655871567159794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871567159801, "dur":72549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655871567232455, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1655871567232556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871567232564, "dur":45453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1655871567278115, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655871567278206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871567278214, "dur":15488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655871567293777, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655871567293850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871567293855, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655871567296903, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655871567296982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871567296987, "dur":48752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655871567345831, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1655871567346348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655871567346357, "dur":4593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1655871567351081, "dur":13342558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871558803341, "dur":357, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871558803698, "dur":13256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871558816955, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1655871558817423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871558821155, "dur":27382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1655871558848617, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1655871558848788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871558849809, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1655871558852929, "dur":368382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1655871559221329, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871559223661, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1655871559227205, "dur":75554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1655871559302764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871559302772, "dur":15350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1655871559318201, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1655871559318376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871559318388, "dur":673794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1655871559992307, "dur":1110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project.exe" }}
+,{ "pid":12345, "tid":4, "ts":1655871559993423, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871559993433, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project.exe" }}
+,{ "pid":12345, "tid":4, "ts":1655871559996399, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1655871559996615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871559997487, "dur":140188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1655871560137955, "dur":129253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560267212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560267550, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560268980, "dur":21262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560290257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560290493, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560293352, "dur":19974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560313331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560313337, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560315442, "dur":32204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560347651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560347657, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560349566, "dur":31196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560380767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560380774, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560382294, "dur":32069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560414368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560414375, "dur":9672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560424143, "dur":20120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560444284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560444291, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560447269, "dur":28787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560476061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560476068, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560478025, "dur":17654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560495683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560495690, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560497255, "dur":87180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560584444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560584455, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560586178, "dur":21063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560607246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560607254, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560608968, "dur":19794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560628767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560628774, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560630905, "dur":18041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560648951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560648958, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560651389, "dur":17665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560669083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560669092, "dur":2194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560671370, "dur":19578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560690952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560690959, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560692515, "dur":46882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560739401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560739408, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560741271, "dur":73893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560815168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560815175, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560816948, "dur":50369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560867323, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560867333, "dur":7489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560874909, "dur":23241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560898156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560898165, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560900437, "dur":45763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560946206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560946216, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560948214, "dur":49724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871560997944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871560997953, "dur":114343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561112390, "dur":73530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561185927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561185936, "dur":7308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561193341, "dur":40927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561234272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561234278, "dur":13134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561247477, "dur":48055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561295537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561295543, "dur":29919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561325541, "dur":53642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561379189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561379198, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561381912, "dur":20739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561402656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561402663, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561405320, "dur":39208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561444534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561444543, "dur":7691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561452331, "dur":42916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561495253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561495263, "dur":7740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561503102, "dur":25801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561528909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561528918, "dur":4720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561533724, "dur":30697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561564428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561564437, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561566472, "dur":28688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561595163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561595170, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561597331, "dur":181056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561778393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871561778432, "dur":19460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871561797978, "dur":287850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562085835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871562085843, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562089260, "dur":74957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562164223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871562164233, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562166164, "dur":61159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562227330, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871562227341, "dur":355841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562583286, "dur":32459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562615752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871562615762, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562618607, "dur":59254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562677866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871562677873, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562679621, "dur":105488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562785115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871562785123, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871562786995, "dur":676311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871563463310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871563463335, "dur":388571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871563852012, "dur":1598348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871565450367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871565450376, "dur":102491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871565552945, "dur":178936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871565731887, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871565731899, "dur":83321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871565815315, "dur":209811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871566025130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871566025137, "dur":809003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655871566834236, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1655871566834513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871566837774, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1655871566839777, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655871566839855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871566839861, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655871566841916, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655871566841995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871566842027, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655871566843798, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655871566843894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871566843901, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655871566845351, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655871566845435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871566845441, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655871566847101, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1655871566847175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871566847182, "dur":4983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1655871566852234, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655871566852333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871566852340, "dur":310564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655871567163005, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1655871567163135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871567163144, "dur":70349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1655871567233576, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1655871567233675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871567233683, "dur":59726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1655871567293490, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1655871567293575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871567293583, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1655871567296546, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1655871567296626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871567296636, "dur":36375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1655871567333090, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WolfenClone/FPS Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1655871567333185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655871567333193, "dur":12895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WolfenClone/FPS Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1655871567346183, "dur":13347446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655871580793856, "dur":3457, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1655871580832173, "dur": 1225, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655871580831077, "dur": 2358, "ph": "X", "name": "Write chrome-trace events", "args": {} },
